@@ -1,5 +1,6 @@
 import { Discord, Github } from "@/components/Social";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import { GitHubIcon } from "nextra/icons";
 
 const config: DocsThemeConfig = {
   sidebar: {
@@ -11,14 +12,13 @@ const config: DocsThemeConfig = {
   editLink: {
     text: "Edit this page on GitHub",
   },
+  project: {
+    icon: GitHubIcon,
+    link: "https://github.com/pterodactyl/panel",
+  },
   navbar: {
     // component: Navigation,
-    extraContent: (
-      <>
-        <Github />
-        <Discord />
-      </>
-    ),
+    extraContent: <Discord />,
   },
 };
 
