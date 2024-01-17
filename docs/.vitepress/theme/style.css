@@ -1,0 +1,79 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+    --vp-home-hero-name-color: #10529f;
+    --vp-home-hero-name-background: unset;
+
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #cb63d3 50%, #10529f 50%);
+    --vp-home-hero-image-filter: blur(44px);
+}
+
+/**
+ * Scrollbar
+ * -------------------------------------------------------------------------- */
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: var(--vp-c-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--vp-c-gray-3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--vp-c-gray-2);
+}
+
+/**
+ * Component: Sidebar
+ * -------------------------------------------------------------------------- */
+
+.VPSidebar {
+    padding-bottom: 12px !important;
+}
+
+.VPSidebarItem.level-0 {
+    padding-bottom: 16px !important;
+}
+
+/**
+ * Component: Alert
+ * -------------------------------------------------------------------------- */
+
+:root {
+    --vp-custom-block-warning-border: #ffc517;
+    --vp-custom-block-danger-border: #b8272c;
+    --vp-custom-block-tip-border: #7873ff;
+}
+
+/**
+ * Custom CSS
+ * -------------------------------------------------------------------------- */
+
+.VPSocialLink {
+    width: 48px !important;
+}
+
+.DocSearch-Button {
+    background: var(--vp-c-bg-alt);
+}
+
+.VPTeamMembersItem.small .data {
+    padding-top: 0 !important;
+}
+
+figure.avatar {
+    display: none;
+}
