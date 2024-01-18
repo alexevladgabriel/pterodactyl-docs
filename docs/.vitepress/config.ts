@@ -31,6 +31,8 @@ export default defineConfig({
         nav: [
             { text: 'Documentation', link: '/project/introduction' },
             { text: 'Community Guides', link: '/community/about' },
+            { text: 'About', items: [{ text: 'Team', link: '/project/about#core-project-team' }] },
+            { text: 'API', link: 'https://dashflo.net/docs/api/pterodactyl/v1/' },
         ],
         sidebar: {
             '/community/': [

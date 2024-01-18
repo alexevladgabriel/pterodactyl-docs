@@ -70,10 +70,10 @@
     background: var(--vp-c-bg-alt);
 }
 
-.VPTeamMembersItem.small .data {
+/* .VPTeamMembersItem.small .data {
     padding-top: 0 !important;
-}
+} */
 
-figure.avatar {
+/* figure.avatar {
     display: none;
-}
+} */

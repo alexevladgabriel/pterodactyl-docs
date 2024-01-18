@@ -8,6 +8,7 @@ import { VPTeamMembers } from 'vitepress/theme';
 
 const members = [
     {
+        avatar: 'https://github.com/daneEveritt.png',
         name: 'Dane Everitt',
         title: 'Founder & Former Project Maintainer',
         links: [
@@ -21,6 +22,7 @@ const members = [
         ]
     },
     {
+        avatar: 'https://github.com/matthewpi.png',
         name: 'Matthew Penner',
         title: 'Project Maintainer',
         links: [
@@ -34,6 +36,7 @@ const members = [
         ]
     },
     {
+        avatar: 'https://github.com/TrixterTheTux.png',
         name: 'Stepan Fedotov',
         title: 'WHMCS Module Maintainer',
         links: [
@@ -41,6 +44,7 @@ const members = [
         ]
     },
     {
+        avatar: 'https://github.com/parkervcp.png',
         name: 'Michael Parker',
         title: 'Egg Developer, Docker Integration',
         links: [
@@ -48,6 +52,7 @@ const members = [
         ]
     },
     {
+        avatar: 'https://github.com/lancepioch.png',
         name: 'Lance Pioch',
         title: 'Developer',
         links: [
@@ -71,7 +76,7 @@ const members = [
 
 <VPTeamMembers size="small" :members="members" />
 
-Members of the project team have a <Badge type="danger" text="red" /> username in our [Discord server](https://discord.gg/pterodactyl).
+Members of the project team have a <Badge class="!bg-pink-900 !text-pink-400" text="pink" /> username in our [Discord server](https://discord.gg/pterodactyl).
 
 ## Community Team
 
@@ -118,9 +123,9 @@ Code released under the [MIT License](https://github.com/pterodactyl/panel/blob/
 
 ## Release Signing
 
-Previously, releases were signed by a GPG key.  All recent releases are now signed using an SSH signing key.
+Previously, releases were signed by a GPG key. All recent releases are now signed using an SSH signing key.
 
-This key is used to sign release tags and commits created by Matthew Penner.  This key was first used to sign
+This key is used to sign release tags and commits created by Matthew Penner. This key was first used to sign
 `v1.10.2` for the Panel and `v1.7.1` for Wings and has been used ever since.
 
 ```
