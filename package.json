@@ -1,20 +1,20 @@
 {
-    "name": "documentation",
-    "repository": "https://github.com/pterodactyl/documentation.git",
-    "author": "Dane Everitt <dane@daneeveritt.com>",
-    "license": "MIT",
-    "type": "module",
-    "devDependencies": {
-        "postcss-preset-env": "^9.3.0",
-        "prettier": "^3.1.1",
-        "tailwindcss": "^3.4.1",
-        "vitepress": "^1.0.0-rc.36",
-        "vitepress-plugin-tabs": "^0.5.0"
-    },
-    "scripts": {
-        "dev": "vitepress dev docs",
-        "build": "vitepress build docs",
-        "preview": "vitepress preview docs"
-    },
-    "dependencies": {}
+  "name": "documentation",
+  "repository": "https://github.com/pterodactyl/documentation.git",
+  "author": "Dane Everitt <dane@daneeveritt.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "postcss-preset-env": "^9.3.0",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.4.1",
+    "vitepress": "^1.0.0-rc.36",
+    "vitepress-plugin-tabs": "^0.5.0",
+    "lucide-vue-next": "^0.314.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  }
 }
